@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend server for the chat application",
+  "main": "server.js",
+  "author": "Your Name",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/backend.git"
+  }
+}
